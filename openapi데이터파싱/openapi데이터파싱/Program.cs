@@ -15,7 +15,8 @@ namespace openapi데이터파싱
         {
             MyDB db = new MyDB();
             db.Open();
-            
+
+            Console.Write("");
             
             CampingSite site = new CampingSite();
             List<CampingSite> l = site.CsvPasing(@"C:\Users\aaa\Desktop\몰입형 프로젝트\openapi데이터파싱\야영장.csv");
